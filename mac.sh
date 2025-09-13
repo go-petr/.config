@@ -7,6 +7,7 @@ core_apps=(
     "yq"
     "gnu-sed"
     "git"
+    "go"
     "fzf"
     "starship"
     "kubectl"
@@ -26,8 +27,14 @@ cask_apps=(
     "calibre"
     "obs"
     "anki"
-    "visual-studio-code"
+    "cursor"
     "obsidian"
+    "alt-tab"
+    "dbeaver-community"
+    "chatgpt"
+    "slack"
+    "zoom"
+    # "v2ray-client"
 )
 
 # Define ANSI color codes

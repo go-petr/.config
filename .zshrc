@@ -31,10 +31,9 @@ plugins=(
     git-auto-fetch
     tmux 
     zsh-autosuggestions 
-    zsh-syntax-highlighting
 )
 
-ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOSTART=true
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=249'
 
 # open fzf in a tmux floating pane
@@ -43,3 +42,11 @@ FZF_TMUX_OPTS='-p'
 
 source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
+
+export PATH=$PATH:$(go env GOPATH)/bin
+unsetopt correct_all
+# export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+# Aliases
+alias grbm='b=$(git rev-parse --abbrev-ref HEAD); git checkout master && git pull origin master && git checkout "$b" && git rebase master'
+alias cm="gco master && gl -p && clear"

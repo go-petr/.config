@@ -294,3 +294,8 @@ dist/
 
 # Ignore everything in the 'build' directory
 build/
+
+# Other files
+configstore
+gh
+glab-cli

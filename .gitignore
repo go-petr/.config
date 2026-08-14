@@ -1,0 +1,301 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks (stored on filesystems like FAT, sometimes)
+._*
+
+# Thumbnails
+._.DS_Store
+.DS_Store?
+
+# Mac generated files
+.Spotlight-V100
+.Trashes
+.Trash-*
+.VolumeIcon.icns
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows image file caches
+*.stackdump
+*.pyc
+*.pyo
+*.pyd
+
+# Windows installer files
+*.msi
+*.msm
+*.msp
+
+# Linux generated files
+*~
+
+# Backup files (Linux)
+*.bak
+*.swp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Editor specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.un~
+
+# JetBrains IDEs
+*.idea/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Rust/Cargo
+/target/
+/Cargo.lock
+
+# Go
+/bin/
+/pkg/
+vendor/
+*.test
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock
+*.yarn-integrity
+.pnpm-debug.log
+yarn-error.log
+
+# PHP Composer
+vendor/
+composer.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.project
+*.classpath
+*.settings/
+*.factorypath
+.gradle/
+build/
+
+# Kotlin
+.gradle/
+build/
+
+# Maven
+target/
+
+# Ruby
+*.gem
+*.rbc
+capybara-*.html
+.gem/
+.ruby-version
+.ruby-gemset
+
+# Rails
+*.rbc
+capybara-*.html
+.ruby-version
+.ruby-gemset
+.env
+.env.*
+
+# Scala
+.cache
+.lib/
+target/
+project/
+target/streams/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+local_settings.py
+db.sqlite3
+*.env
+
+# Virtual Environment
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Swift/Objective-C
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.out
+*.toc
+*.synctex.gz
+*.run.xml
+
+# Tex Files
+*.tex
+
+# MATLAB
+*.m~
+*.m~
+*.mex*
+*.biomat
+*.biomat.md5
+*.biomat.nfo
+
+# Plots and outputs
+*.fig
+*.asv
+
+# Other files
+*.bak
+*.swp
+*~.nib
+*.tmp
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Temporary files
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.gz
+*.7z
+*.bz2
+
+# Ignore any file named '.DS_Store'
+.DS_Store
+
+# Ignore everything in the 'node_modules' directory
+node_modules/
+
+# Ignore everything in the 'dist' directory
+dist/
+
+# Ignore everything in the 'build' directory
+build/
+
+# Other files
+configstore
+gh
+glab-cli

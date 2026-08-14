@@ -1,0 +1,5 @@
+rcmd - i : open -a "Brave Browser"
+rcmd - o : open -a "ChatGPT"
+rcmd - p : open -a "Telegram"
+rcmd - j : open -a "WezTerm"
+rcmd - k : open -a "Cursor"

@@ -22,7 +22,7 @@ cd ~/.config
 brew bundle install
 ```
 
-Right-Cmd app-launch hotkeys (Claude/Brave/ChatGPT/Telegram/WezTerm/Cursor)
+Right-Cmd app-launch hotkeys (Claude/Brave/ChatGPT/Telegram/WezTerm/VS Code)
 are handled by `karabiner-elements`, rules tracked in
 `karabiner/assets/complex_modifications/app-launch-rcmd.json`. After
 installing, launch Karabiner-Elements once, grant it Input Monitoring +

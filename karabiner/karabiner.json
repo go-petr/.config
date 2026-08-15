@@ -1,4 +1,8 @@
 {
+    "global": {
+        "check_for_updates": false,
+        "show_in_menu_bar": false
+    },
     "profiles": [
         {
             "complex_modifications": {
@@ -69,14 +73,14 @@
                         ]
                     },
                     {
-                        "description": "Right-Cmd+K: Cursor",
+                        "description": "Right-Cmd+K: VS Code",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": { "mandatory": ["right_command"] }
                                 },
-                                "to": [{ "shell_command": "open -a 'Cursor'" }],
+                                "to": [{ "shell_command": "open -a 'Visual Studio Code'" }],
                                 "type": "basic"
                             }
                         ]
@@ -85,6 +89,16 @@
             },
             "name": "Default profile",
             "selected": true,
+            "simple_modifications": [
+                {
+                    "from": { "apple_vendor_top_case_key_code": "keyboard_fn" },
+                    "to": [{ "key_code": "left_control" }]
+                },
+                {
+                    "from": { "key_code": "left_control" },
+                    "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                }
+            ],
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         }
     ]

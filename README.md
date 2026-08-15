@@ -22,14 +22,13 @@ cd ~/.config
 brew bundle install
 ```
 
-`skhd` lives on an untrusted tap, so `brew bundle` can't install it — trust the
-tap once, then install it separately:
-```zsh
-brew tap asmvik/formulae https://github.com/asmvik/homebrew-formulae.git
-brew trust asmvik/formulae
-brew install asmvik/formulae/skhd
-skhd --start-service
-```
+Right-Cmd app-launch hotkeys (Claude/Brave/ChatGPT/Telegram/WezTerm/Cursor)
+are handled by `karabiner-elements`, rules tracked in
+`karabiner/assets/complex_modifications/app-launch-rcmd.json`. After
+installing, launch Karabiner-Elements once, grant it Input Monitoring +
+Accessibility when macOS prompts, then go to
+**Complex Modifications → Add rule → "Right-Cmd app launcher" → Enable All**.
+`bettercmdtab` is used for cmd-tab-style app switching only.
 
 #### Install apps manually
 1. [V2Box - V2ray Client - App Store - Apple](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)

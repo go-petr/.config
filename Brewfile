@@ -20,7 +20,6 @@ cask "font-meslo-lg-nerd-font"
 cask "karabiner-elements" # right-Cmd app-launch hotkeys, rules in karabiner/assets/complex_modifications
 cask "logi-options+"
 cask "obs"
-cask "obsidian"
 cask "telegram"
 cask "visual-studio-code"
 cask "wezterm@nightly"

@@ -1,0 +1,20 @@
+{
+  "title": "Caps Lock: switch input language/layout",
+  "rules": [
+    {
+      "description": "Caps Lock (plain press): switch to next input source (sends Control+Space)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            { "key_code": "spacebar", "modifiers": ["left_control"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

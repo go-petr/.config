@@ -1,0 +1,49 @@
+{
+  "appExceptions" : [
+    {
+      "bundleID" : "com.apple.finder",
+      "hide" : "whenNoWindows",
+      "ignore" : "always"
+    }
+  ],
+  "directActivationBindings" : [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "expandTabsAsWindows" : false,
+  "hapticOnCommit" : false,
+  "hideFromScreenSharing" : true,
+  "layoutMode" : "list",
+  "letterHintsEnabled" : false,
+  "nextScopedShortcutID" : 0,
+  "pinnedBundleIDs" : [
+
+  ],
+  "previewTitleAlignment" : "leading",
+  "revealDelayMs" : 40,
+  "scopedShortcutList" : [
+
+  ],
+  "shortcutOverrides" : [
+    {
+      "boldSelectedLabel" : "false",
+      "expandBrowserTabsAsWindows" : "false",
+      "layoutMode" : "list",
+      "letterHintsEnabled" : "false",
+      "panelScalePercent" : "83",
+      "showApplicationNames" : "false",
+      "sortOrder" : "mruWindows",
+      "spaceScope" : "allSpaces",
+      "target" : "switchApps"
+    }
+  ],
+  "showMinimizedWindows" : true,
+  "showWindowTitleLabel" : false
+}

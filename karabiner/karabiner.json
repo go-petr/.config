@@ -112,6 +112,19 @@
                         ]
                     },
                     {
+                        "description": "Right-Cmd+H: Device Hub",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "shell_command": "open -a '/Applications/Xcode.app/Contents/Applications/DeviceHub.app'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Caps Lock (plain press): switch to next input source (sends Control+Space)",
                         "manipulators": [
                             {

@@ -304,3 +304,10 @@ glab-cli
 cagent/
 containers/
 kustomize/
+
+# Karabiner-Elements app-managed live state (machine-specific:
+# per-machine app choices and device identifiers). Source of truth is
+# karabiner/assets/complex_modifications/*.json — rules are applied by
+# toggling them in the Karabiner GUI.
+karabiner/karabiner.json
+karabiner/automatic_backups/

@@ -54,12 +54,12 @@
       ]
     },
     {
-      "description": "Right-Cmd+J: WezTerm",
+      "description": "Right-Cmd+H: WezTerm",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "h",
             "modifiers": { "mandatory": ["right_command"] }
           },
           "to": [{ "shell_command": "open -a 'WezTerm'" }]
@@ -106,12 +106,12 @@
       ]
     },
     {
-      "description": "Right-Cmd+H: Device Hub",
+      "description": "Right-Cmd+J: Device Hub",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": { "mandatory": ["right_command"] }
           },
           "to": [{ "shell_command": "open -a '/Applications/Xcode.app/Contents/Applications/DeviceHub.app'" }]

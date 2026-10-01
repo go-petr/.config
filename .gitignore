@@ -299,3 +299,8 @@ build/
 configstore
 gh
 glab-cli
+
+# Tool-generated runtime state (not config)
+cagent/
+containers/
+kustomize/

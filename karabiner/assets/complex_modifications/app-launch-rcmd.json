@@ -117,6 +117,19 @@
           "to": [{ "shell_command": "open -a '/Applications/Xcode.app/Contents/Applications/DeviceHub.app'" }]
         }
       ]
+    },
+    {
+      "description": "Right-Cmd+[: Zoom",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": { "mandatory": ["right_command"] }
+          },
+          "to": [{ "shell_command": "open -a 'zoom.us'" }]
+        }
+      ]
     }
   ]
 }

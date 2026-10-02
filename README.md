@@ -81,6 +81,14 @@ EOF
 echo 'eval "$(zoxide init zsh)"' >> ~/.zprofile
 ```
 
+## Claude Code status line
+The script lives in `claude-statusline/statusline.sh` (needs `jq` from the
+Brewfile). Point `~/.claude/settings.json` at it, keeping any existing keys:
+```zsh
+mkdir -p ~/.claude && f=~/.claude/settings.json && [ -f $f ] || echo '{}' > $f
+jq '.statusLine={"type":"command","command":"~/.config/claude-statusline/statusline.sh","padding":0}' $f > $f.tmp && mv $f.tmp $f
+```
+
 ## Linux
 ```zsh
 sudo apt install tmux zsh fzf

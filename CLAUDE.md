@@ -73,5 +73,10 @@ shell init, macOS System Settings tweaks) is documented step by step in
   Rectangle's own import feature), not meant to be hand-edited field by
   field.
 
+- **`claude-statusline/statusline.sh`** — Claude Code status line script,
+  referenced from `~/.claude/settings.json` (setup line in `README.md`).
+  Deliberately not named `claude/`: Claude Code may treat
+  `$XDG_CONFIG_HOME/claude` as its own config dir.
+
 - **`cursor_extensions.txt`** is a plain list of extension IDs; there is no
   install script wired up to it yet.
